@@ -1,1 +1,2 @@
 # 7dayGo
+Acer cloned
