@@ -1,3 +1,3 @@
 # 7dayGo
 Acer cloned
-log
+log out
