@@ -1,5 +1,5 @@
 # 7dayGo
-Acer cloned
-log out
-log in
+Acer cloned  
+log out  
+log in  
 proxy
