@@ -1,9 +1,9 @@
-package session_test
+package session
 
 import (
 	"database/sql"
 	"geeorm/dialect"
-	"geeorm/session"
+
 	"os"
 	"testing"
 )
@@ -25,8 +25,8 @@ func TestMain(m *testing.M) {
 	os.Exit(code)
 }
 
-func NewSession() *session.Session {
-	return session.New(TestDB, TestDial)
+func NewSession() *Session {
+	return &Session{db: TestDB, dialect: TestDial}
 }
 
 func TestSession_CreateTable(t *testing.T) {
