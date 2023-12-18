@@ -4,4 +4,5 @@ use (
 	./Gee
 	./GeeORM
 	./GeeCache
+	./GeeRPC
 )
